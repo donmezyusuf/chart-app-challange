@@ -28,7 +28,7 @@ import {
 
 function DrawGraphs() {
   const apiUrl =
-    "http://www.json-generator.com/api/json/get/bUgMRhYjKG?indent=2";
+    "https://www.json-generator.com/api/json/get/bUgMRhYjKG?indent=2";
   const [data, setData] = useState([]);
 
   async function fetchAPI() {
